@@ -1,0 +1,54 @@
+# This is the configuration file for Ghostty.
+
+# ======================
+# Personal config below
+# ======================
+
+# Fonts (simple, built-in)
+font-family = "Menlo"
+font-size = 14
+font-style = bold
+font-style-bold = bold
+font-thicken = true
+font-thicken-strength = 180
+
+# Window padding (breathing room)
+window-padding-x = 8
+window-padding-y = 6
+window-padding-balance = true
+window-padding-color = background
+
+# Light translucent glass background
+background-opacity = 0.82
+background-opacity-cells = true
+background-blur = macos-glass-regular
+
+# macOS titlebar style
+macos-titlebar-style = transparent
+window-theme = light
+
+# Theme colors (milky white glass, comfortable contrast)
+background = #f4f7fb
+foreground = #1f2937
+cursor-color = #334155
+cursor-text = #f8fafc
+selection-background = #cbd5e1
+selection-foreground = #111827
+
+# ANSI palette (0-15) tuned for translucent light glass
+palette = 0=#111827
+palette = 1=#b91c1c
+palette = 2=#15803d
+palette = 3=#a16207
+palette = 4=#1d4ed8
+palette = 5=#7e22ce
+palette = 6=#0f766e
+palette = 7=#f3f4f6
+palette = 8=#4b5563
+palette = 9=#dc2626
+palette = 10=#16a34a
+palette = 11=#ca8a04
+palette = 12=#2563eb
+palette = 13=#9333ea
+palette = 14=#0d9488
+palette = 15=#ffffff
